@@ -1,0 +1,3 @@
+<FilesMatch ".(html|php|js|css|jpg|jpeg|png|ico)$">
+  Header unset Cache-Control
+</FilesMatch>
